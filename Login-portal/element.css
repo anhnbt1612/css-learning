@@ -72,7 +72,7 @@ button{
 }
 
 .link-text:hover{
-    color: #00A09D;
+    color: #005452;
     text-decoration: underline;
     background-color: transparent;
     font-size: 11.2px;
@@ -100,7 +100,17 @@ em{
     border: 1px solid rgba(0, 0, 0, 0.125);
     padding: 8px 20px;
     border-radius: 0.25rem;
+}
+
+.gg-login:link,
+.gg-login:visited{
+    color: #495057;
+    text-decoration: none;
     background-color: #FFFFFF;
+}
+
+.gg-login:hover{
+    background-color: #f8f9fa;
 }
 
 .footer-link{
