@@ -9,25 +9,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body class="parents">
-    <img src="https://portal.sotatek.com/web/binary/company_logo" alt="" class="logo">
-    <span class="line"></span>
-    <label class="label">Email</label>
-    <input type="text" placeholder="Email">
-    <label class="label">Password</label>
-    <input type="text" placeholder="Password">
-    <button type="submit">Log in</button>
-    <a href="" class="link-text">Don't have an account?</a>
-    <em>- or -</em>
-    <a class="gg-login" href="">
-        <i class="fa fa-fw fa-google-plus-square gg-icon">
-        </i>
-        Log in with Google
-    </a>
-    <span class="line-2"></span>
-    <div class="footer-link">
-        <a href="" class="link-text no-margin">Manage Databases</a>
-        <span class="between-line"></span>
-        <a href="" class="link-text no-margin">Powered by Odoo</a>
+<body>
+    <div class="parents">
+        <img src="https://portal.sotatek.com/web/binary/company_logo" alt="Picture" class="logo">
+        <span class="line"></span>
+        <form action="">
+            <div class="email">
+                <label for="email-txb" class="label">Email</label>
+                <input id="email-txb" type="text" placeholder="Email">
+            </div>
+            <div class="password">
+                <label for="pw-txb" class="label">Password</label>
+                <input id="pw-txb" type="password" placeholder="Password">
+            </div>
+            <div class="submit-btn">
+                <button type="submit">Log in</button>
+            </div>
+            <div class="create-new-acc">
+                <a href="" class="link-text">Don't have an account?</a>
+            </div>
+            <div class="or">
+                <em>- or -</em>
+            </div>
+            <div class="google-login">
+                    <a class="gg-login" href="">
+                        <i class="fa fa-fw fa-google-plus-square gg-icon"></i>
+                        Log in with Google
+                    </a>
+            </div>
+        </form>
+        <span class="line-2"></span>
+        <div class="footer-link">
+            <a href="" class="link-text no-margin">Manage Databases</a>
+            <span class="between-line"></span>
+            <a href="" class="link-text no-margin">Powered by Odoo</a>
+        </div>
     </div>
 </body>
